@@ -1,142 +1,124 @@
-<div align="center">
+<h1 align="center">Hi 👋, I'm Bruce</h1>
+<h3 align="center">Backend Developer | Go | AI | Cloud</h3>
 
-<h2>🛠️ Skill Radar 技能雷达图</h2>
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Developer;Go+Engineer;AI+Builder;Open+Source+Enthusiast&center=true&width=500&height=50">
+</p>
 
-<svg width="420" height="480" viewBox="0 0 420 480" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="420" height="480">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, sans-serif; color: inherit;">
+<p align="center">
+🚀 Passionate about building scalable backend systems and AI tools
+</p>
 
-      <style>
-        :root {
-          --bg: #0d1117;
-          --text: #c9d1d9;
-          --line: #30363d;
-          --fill: #58a6ff;
-          --fill-opacity: 0.35;
-        }
-        @media (prefers-color-scheme: light) {
-          :root {
-            --bg: #ffffff;
-            --text: #24292e;
-            --line: #d0d7de;
-            --fill: #0969da;
-            --fill-opacity: 0.4;
-          }
-        }
+---
 
-        .radar-container {
-          position: relative;
-          width: 380px;
-          height: 380px;
-          margin: 30px auto;
-          font-size: 14px;
-          color: var(--text);
-        }
+# 🧠 Tech Stack
 
-        .radar {
-          position: absolute;
-          inset: 0;
-          background: radial-gradient(circle at 50% 50%, transparent 30%, var(--line) 31%, transparent 32%);
-          clip-path: polygon(50% 0%, 93% 34%, 81% 93%, 19% 93%, 7% 34%);
-          animation: rotate 30s linear infinite;
-          opacity: 0.15;
-        }
+### Backend
+<p>
+<img src="https://skillicons.dev/icons?i=go,java,nodejs" />
+</p>
 
-        @keyframes rotate {
-          to { transform: rotate(360deg); }
-        }
+### Frontend
+<p>
+<img src="https://skillicons.dev/icons?i=vue,react,ts,js,tailwind" />
+</p>
 
-        .radar-bg {
-          position: absolute;
-          inset: 0;
-          background: conic-gradient(from 90deg at 50% 50%,
-            transparent 0deg 72deg,
-            var(--line) 72deg 73deg,
-            transparent 73deg 144deg,
-            var(--line) 144deg 145deg,
-            transparent 145deg 216deg,
-            var(--line) 216deg 217deg,
-            transparent 217deg 288deg,
-            var(--line) 288deg 289deg,
-            transparent 289deg 360deg
-          );
-          clip-path: polygon(50% 0%, 93% 34%, 81% 93%, 19% 93%, 7% 34%);
-          opacity: 0.6;
-        }
+### Database
+<p>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,redis" />
+</p>
 
-        .radar-fill {
-          position: absolute;
-          inset: 0;
-          background: var(--fill);
-          opacity: var(--fill-opacity);
-          clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%);
-          animation: fill-grow 3.5s ease-out forwards;
-        }
+### DevOps & Cloud
+<p>
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,nginx,git" />
+</p>
 
-        @keyframes fill-grow {
-          to {
-            clip-path: polygon(
-              50% 50%,
-              50% 0%,          /* JavaScript / 前端 */
-              93% 34%,         /* Python */
-              81% 93%,         /* Go / 后端 */
-              19% 93%,         /* Rust / 系统 */
-              7% 34%           /* TypeScript / 类型安全 */
-            );
-          }
-        }
+### AI / Data
+<p>
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow" />
+</p>
 
-        .label {
-          position: absolute;
-          font-weight: bold;
-          text-shadow: 0 0 6px rgba(0,0,0,0.6);
-          pointer-events: none;
-        }
+---
 
-        .label-1 { top: -10px;    left: 50%; transform: translateX(-50%); }
-        .label-2 { top: 35%;      right: -20px; }
-        .label-3 { bottom: 10%;   right: 20%; }
-        .label-4 { bottom: 10%;   left: 20%; }
-        .label-5 { top: 35%;      left: -20px; }
+# 📊 GitHub Stats
 
-        .value {
-          font-size: 0.9em;
-          opacity: 0.8;
-          margin-top: 4px;
-        }
-      </style>
+<p align="center">
 
-      <div class="radar-container">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-        <div class="radar-bg"></div>
-        <div class="radar"></div>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
 
-        <!-- 核心技能填充区域（改这里的 clip-path 数值来调整形状） -->
-        <div class="radar-fill" style="animation-delay: 0.4s;"></div>
+</p>
 
-        <!-- 五个标签 + 熟练度（0-100） -->
-        <div class="label label-1">
-          JavaScript<br><span class="value">95</span>
-        </div>
-        <div class="label label-2">
-          Python<br><span class="value">88</span>
-        </div>
-        <div class="label label-3">
-          Go<br><span class="value">82</span>
-        </div>
-        <div class="label label-4">
-          Rust<br><span class="value">75</span>
-        </div>
-        <div class="label label-5">
-          TypeScript<br><span class="value">92</span>
-        </div>
+---
 
-      </div>
+# 📈 Contribution Graph
 
-    </div>
-  </foreignObject>
-</svg>
+<p align="center">
 
-<p><small>鼠标悬停在 GitHub 页面有时会看到更明显的动画效果～</small></p>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=USERNAME&theme=tokyo-night&hide_border=true"/>
 
-</div>
+</p>
+
+---
+
+# 🏆 GitHub Trophies
+
+<p align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=USERNAME&theme=tokyonight&no-frame=true&margin-w=10"/>
+
+</p>
+
+---
+
+# 🚀 Featured Projects
+
+### 🌍 WastePulse
+Smart city waste reporting and management system.
+
+Tech Stack
+
+Features
+
+- citizen issue reporting
+- smart ticket system
+- crew dispatch
+- map based visualization
+
+---
+# 📫 Contact Me
+
+<p>
+
+📧 Email: bruce@aieverywhere.top
+
+🌐 Website: https://aieverywhere.top
+
+💼 LinkedIn: [https://linkedin.com](https://www.linkedin.com/in/bruce-w-65b392386/)
+
+</p>
+
+---
+
+# 👀 Profile Views
+
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=USERNAME&color=blueviolet&style=flat-square"/>
+
+</p>
+
+---
+
+# ⭐ Support
+
+If you like my projects, feel free to ⭐ star them on GitHub.
+
+---
+
+<p align="center">
+
+Made with ❤️ by Bruce
+
+</p>
