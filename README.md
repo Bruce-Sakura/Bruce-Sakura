@@ -1,61 +1,142 @@
 <div align="center">
 
-  <!-- Typing effect header – modern & eye-catching -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=4000&pause=1500&color=7C3AED&center=true&vCenter=true&width=500&lines=Hello%2C+I'm+Hello+%F0%9F%91%8B;Full-Stack+Developer+%F0%9F%9A%80;TypeScript+%2F+Node.js+Enthusiast" alt="Typing SVG" />
+<h2>🛠️ Skill Radar 技能雷达图</h2>
 
-  <!-- Location & availability – matches your provided text -->
-  <p>
-    <strong>🇬🇧 Based in UK</strong> • Open to remote opportunities & collaborations
-  </p>
+<svg width="420" height="480" viewBox="0 0 420 480" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="420" height="480">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, sans-serif; color: inherit;">
 
-  <!-- Social badges – clean shields, add your real links -->
-  <p>
-    <a href="https://x.com/Bruce08029115" target="_blank">
-      <img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=x&logoColor=white" alt="X" />
-    </a>
-    <a href="https://linkedin.com/in/hello-your-profile" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="https://github.com/Bruce08029115" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-    </a>
-    <!-- Add more: personal site, email, etc. -->
-  </p>
+      <style>
+        :root {
+          --bg: #0d1117;
+          --text: #c9d1d9;
+          --line: #30363d;
+          --fill: #58a6ff;
+          --fill-opacity: 0.35;
+        }
+        @media (prefers-color-scheme: light) {
+          :root {
+            --bg: #ffffff;
+            --text: #24292e;
+            --line: #d0d7de;
+            --fill: #0969da;
+            --fill-opacity: 0.4;
+          }
+        }
 
-  <!-- Stats cards – side by side, borderless, tokyonight theme -->
-  <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=Bruce08029115&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true&show=prs_merged,prs_merged_percentage" alt="GitHub Stats" width="48%" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Bruce08029115&theme=tokyonight&hide_border=true&date_format=M+j" alt="GitHub Streak" width="48%" />
-  </p>
+        .radar-container {
+          position: relative;
+          width: 380px;
+          height: 380px;
+          margin: 30px auto;
+          font-size: 14px;
+          color: var(--text);
+        }
 
-  <!-- Top languages – compact layout -->
-  <p>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bruce08029115&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=html,css" alt="Top Languages" width="48%" />
-  </p>
+        .radar {
+          position: absolute;
+          inset: 0;
+          background: radial-gradient(circle at 50% 50%, transparent 30%, var(--line) 31%, transparent 32%);
+          clip-path: polygon(50% 0%, 93% 34%, 81% 93%, 19% 93%, 7% 34%);
+          animation: rotate 30s linear infinite;
+          opacity: 0.15;
+        }
 
-  <!-- Visitor count – subtle square style -->
-  <p>
-    <img src="https://komarev.com/ghpvc/?username=Bruce08029115&style=flat-square&color=7C3AED&label=Profile+Views" alt="Profile Views" />
-  </p>
+        @keyframes rotate {
+          to { transform: rotate(360deg); }
+        }
 
-  <!-- Tech stack – skillicons for clean icons -->
-  <h3>🛠️ Tech Stack</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=ts,js,nodejs,react,nextjs,express,nestjs,tailwind,prisma,postgres,mongodb,docker,git,github" alt="Tech Stack" />
-  </p>
+        .radar-bg {
+          position: absolute;
+          inset: 0;
+          background: conic-gradient(from 90deg at 50% 50%,
+            transparent 0deg 72deg,
+            var(--line) 72deg 73deg,
+            transparent 73deg 144deg,
+            var(--line) 144deg 145deg,
+            transparent 145deg 216deg,
+            var(--line) 216deg 217deg,
+            transparent 217deg 288deg,
+            var(--line) 288deg 289deg,
+            transparent 289deg 360deg
+          );
+          clip-path: polygon(50% 0%, 93% 34%, 81% 93%, 19% 93%, 7% 34%);
+          opacity: 0.6;
+        }
 
-  <!-- Currently section – short & focused -->
-  <h3>🌱 Currently</h3>
-  <ul align="left">
-    <li>🔭 Building backend APIs & open-source tools</li>
-    <li>🌱 Exploring performance layers (Go/Rust experiments)</li>
-    <li>🤝 Open to remote collabs – DM me on X!</li>
-  </ul>
+        .radar-fill {
+          position: absolute;
+          inset: 0;
+          background: var(--fill);
+          opacity: var(--fill-opacity);
+          clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%);
+          animation: fill-grow 3.5s ease-out forwards;
+        }
 
-  <!-- Call to action -->
-  <p>
-    <strong>Let's build something awesome together! 🚀</strong><br>
-    Feel free to ⭐ repos or reach out for projects.
-  </p>
+        @keyframes fill-grow {
+          to {
+            clip-path: polygon(
+              50% 50%,
+              50% 0%,          /* JavaScript / 前端 */
+              93% 34%,         /* Python */
+              81% 93%,         /* Go / 后端 */
+              19% 93%,         /* Rust / 系统 */
+              7% 34%           /* TypeScript / 类型安全 */
+            );
+          }
+        }
+
+        .label {
+          position: absolute;
+          font-weight: bold;
+          text-shadow: 0 0 6px rgba(0,0,0,0.6);
+          pointer-events: none;
+        }
+
+        .label-1 { top: -10px;    left: 50%; transform: translateX(-50%); }
+        .label-2 { top: 35%;      right: -20px; }
+        .label-3 { bottom: 10%;   right: 20%; }
+        .label-4 { bottom: 10%;   left: 20%; }
+        .label-5 { top: 35%;      left: -20px; }
+
+        .value {
+          font-size: 0.9em;
+          opacity: 0.8;
+          margin-top: 4px;
+        }
+      </style>
+
+      <div class="radar-container">
+
+        <div class="radar-bg"></div>
+        <div class="radar"></div>
+
+        <!-- 核心技能填充区域（改这里的 clip-path 数值来调整形状） -->
+        <div class="radar-fill" style="animation-delay: 0.4s;"></div>
+
+        <!-- 五个标签 + 熟练度（0-100） -->
+        <div class="label label-1">
+          JavaScript<br><span class="value">95</span>
+        </div>
+        <div class="label label-2">
+          Python<br><span class="value">88</span>
+        </div>
+        <div class="label label-3">
+          Go<br><span class="value">82</span>
+        </div>
+        <div class="label label-4">
+          Rust<br><span class="value">75</span>
+        </div>
+        <div class="label label-5">
+          TypeScript<br><span class="value">92</span>
+        </div>
+
+      </div>
+
+    </div>
+  </foreignObject>
+</svg>
+
+<p><small>鼠标悬停在 GitHub 页面有时会看到更明显的动画效果～</small></p>
 
 </div>
