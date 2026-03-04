@@ -12,19 +12,7 @@
     🇬🇧 Based in UK • Open to remote opportunities & collaborations
   </p>
 
-  <!-- 社交图标（用 shields.io 或 simple icons） -->
-  <p>
-    <a href="https://twitter.com/Bruce08029115" target="_blank">
-      <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter" />
-    </a>
-    <a href="https://linkedin.com/in/your-linkedin" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <!-- 加你其他链接：博客、个人网站、Discord 等 -->
-    <a href="https://github.com/Bruce08029115" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-    </a>
-  </p>
+
 
   <!-- GitHub 统计卡片（超级流行，动态更新） -->
   <p>
