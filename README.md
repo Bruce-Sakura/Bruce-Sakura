@@ -45,18 +45,6 @@
 
 ---
 
-# 📊 GitHub Stats
-
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Bruce-Sakura&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bruce-Sakura&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</p>
-
----
-
 # 📈 Contribution Graph
 
 <p align="center">
@@ -91,16 +79,6 @@ Features
 🌐 Website: [https://aieverywhere.top](https://aieverywhere.top)
 
 💼 LinkedIn: [https://www.linkedin.com/in/bruce-w-65b392386/](https://www.linkedin.com/in/bruce-w-65b392386/)
-
-</p>
-
----
-
-# 👀 Profile Views
-
-<p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=Bruce-Sakura&color=blueviolet&style=flat-square"/>
 
 </p>
 
