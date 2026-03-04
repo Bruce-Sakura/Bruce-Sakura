@@ -14,26 +14,31 @@
 # 🧠 Tech Stack
 
 ### Backend
+
 <p>
 <img src="https://skillicons.dev/icons?i=go,java,nodejs" />
 </p>
 
 ### Frontend
+
 <p>
 <img src="https://skillicons.dev/icons?i=vue,react,ts,js,tailwind" />
 </p>
 
 ### Database
+
 <p>
 <img src="https://skillicons.dev/icons?i=postgres,mysql,redis" />
 </p>
 
 ### DevOps & Cloud
+
 <p>
 <img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,nginx,git" />
 </p>
 
 ### AI / Data
+
 <p>
 <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow" />
 </p>
@@ -44,9 +49,9 @@
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Bruce-Sakura&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bruce-Sakura&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </p>
 
@@ -56,7 +61,7 @@
 
 <p align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=USERNAME&theme=tokyo-night&hide_border=true"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Bruce-Sakura&theme=tokyo-night&hide_border=true"/>
 
 </p>
 
@@ -66,7 +71,7 @@
 
 <p align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=USERNAME&theme=tokyonight&no-frame=true&margin-w=10"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Bruce-Sakura&theme=tokyonight&no-frame=true&margin-w=10"/>
 
 </p>
 
@@ -75,27 +80,27 @@
 # 🚀 Featured Projects
 
 ### 🌍 WastePulse
-Smart city waste reporting and management system.
 
-Tech Stack
+Smart city waste reporting and management system.
 
 Features
 
-- citizen issue reporting
-- smart ticket system
-- crew dispatch
-- map based visualization
+* citizen issue reporting
+* smart ticket system
+* crew dispatch
+* map based visualization
 
 ---
+
 # 📫 Contact Me
 
 <p>
 
-📧 Email: bruce@aieverywhere.top
+📧 Email: [bruce@aieverywhere.top](mailto:bruce@aieverywhere.top)
 
-🌐 Website: https://aieverywhere.top
+🌐 Website: [https://aieverywhere.top](https://aieverywhere.top)
 
-💼 LinkedIn: [https://linkedin.com](https://www.linkedin.com/in/bruce-w-65b392386/)
+💼 LinkedIn: [https://www.linkedin.com/in/bruce-w-65b392386/](https://www.linkedin.com/in/bruce-w-65b392386/)
 
 </p>
 
@@ -105,7 +110,7 @@ Features
 
 <p align="center">
 
-<img src="https://komarev.com/ghpvc/?username=USERNAME&color=blueviolet&style=flat-square"/>
+<img src="https://komarev.com/ghpvc/?username=Bruce-Sakura&color=blueviolet&style=flat-square"/>
 
 </p>
 
