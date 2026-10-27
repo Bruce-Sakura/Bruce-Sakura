@@ -57,6 +57,14 @@
 
 # 🚀 Featured Projects
 
+### dot dot — live translation and AI meeting notes
+
+Follow microphone speech with live transcription and translation, revisit saved sessions, and request an AI summary in one workspace.
+
+[Explore dot dot](https://translate.aieverywhere.top/en/?utm_source=github&utm_medium=profile&utm_campaign=dotdot_24h) · [中文介绍](https://translate.aieverywhere.top/zh/?utm_source=github&utm_medium=profile&utm_campaign=dotdot_24h)
+
+Sign-in is required. Microphone features need browser permission; review translations and summaries against the source.
+
 ### 🌍 WastePulse
 
 Smart city waste reporting and management system.
